@@ -24,4 +24,5 @@
 
 .main-menu a.active {
     color: #FFF;
+    font-weight: 700;
 }
