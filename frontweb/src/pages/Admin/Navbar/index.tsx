@@ -2,20 +2,20 @@ import './styles.css';
 
 const Navbar = () => {
     return(
-        <nav class="admin-nav-container"> 
+        <nav className="admin-nav-container"> 
             <ul>
                 <li>
-                    <a href="produto">
+                    <a href="produto" className="admin-nav-item active">
                     <p>Produtos</p>
                     </a>
                 </li>
                 <li>
-                <a href="produto">
+                <a href="produto" className="admin-nav-item">
                     <p>Categorias</p>
                     </a>
                 </li>
                 <li>
-                <a href="produto">
+                <a href="produto" className="admin-nav-item">
                     <p>Usuários</p>
                     </a>
                 </li>
